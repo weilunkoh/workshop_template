@@ -1,5 +1,9 @@
+.streamlit/
 secrets.toml
-.venv/
+venv/
 *.csv
 database/
 References/
+pandasai.log
+exports/
+cache/

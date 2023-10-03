@@ -6,7 +6,7 @@ from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
-# exercis 12
+# exercise 12
 from langchain.memory import ConversationBufferWindowMemory
 
 # exercise 13
@@ -39,6 +39,11 @@ from pandasai import SmartDataframe
 from pandasai.llm.openai import OpenAI
 import matplotlib.pyplot as plt
 
+from part0part1 import ex1, ex2, ex3a, ex3b, ex4a, ex4b, ex5, ex6, ex8, ex9, ex10
+from part2 import ex11a, ex11b, ex12, ex13, ex14
+from part3 import ex15, ex16, ex17
+from part4 import ex18
+
 # Global ex 13
 cwd = os.getcwd()
 WORKING_DIRECTORY = os.path.join(cwd, "database")
@@ -48,15 +53,42 @@ if not os.path.exists(WORKING_DIRECTORY):
 # ex15
 DB_NAME = os.path.join(WORKING_DIRECTORY, "default_db")
 
+st.title("GenAI codecraft workshop")
 
-# Exercise 1 : Hello World and Input
-def ex1():
-	st.write("Hello World")
-	name = st.text_input("Enter your name")
-	# only prints the Hello {name} if input box is not empty
-	if name:
-		st.write("Hello " + name)
+def main():
+	# initialize session state, from ch4
+	if "name" not in st.session_state:
+		st.session_state.name = "Yoda"
 
-st.title("ITD workshop file")
+	if "age" not in st.session_state:
+		st.session_state.age = 999
 
-st.write("Hello World!")
+	if "gender" not in st.session_state:
+		st.session_state.gender = "male"
+
+	if "prompt_template" not in st.session_state:
+		st.session_state.prompt_template = "Speak like Yoda from Star Wars for every question that was asked, do not give a direct answer but ask more questions in the style of wise Yoda from Star Wars"
+
+	# ex1()
+	# ex2()
+	# ex3a()
+	# ex3b()
+	# ex4a()
+	# ex4b()
+	# ex5()
+	# ex6()
+	# ex8()
+	# ex9()
+	# ex10()
+	# ex11a()
+	# ex11b()
+	# ex12()
+	# ex13()
+	# ex14()
+	# ex15()
+	# ex16()
+	# ex17()
+	# ex18()
+
+if __name__ == "__main__":
+	main()
