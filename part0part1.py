@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 
-openai.api_key = st.secrets["openapi_key"]
+# openai.api_key = st.secrets["openapi_key"]
 
 def ex1():
 	# Exercise 1 : Functions
