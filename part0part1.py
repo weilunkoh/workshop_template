@@ -12,18 +12,6 @@ def ex1():
 		st.write("Hello " + name)
 		
 def ex2():
-	# Exercise 2 : Streamlit sidebar
-	with st.sidebar:
-		option = st.selectbox("My sidebar", ["", "Option 1", "Option 2"])
-
-	if option == "Option 1":
-		st.write("You selected option 1")
-	elif option == "Option 2":
-		st.write("You selected option 2")
-	else:
-		st.write("Please select an option from the sidebar")
-		
-def ex3a():
     gender = st.selectbox("State your gender", ["Male", "Female"])
     age = int(st.text_input("State your age", 18))
     photo = st.camera_input("Smile! take a picture here.")
@@ -44,7 +32,7 @@ def ex3a():
     else:
         st.write("No photo taken")
 
-def ex3b():
+def ex3():
 	# Data list
 	fruits = ["apple", "banana", "orange"]
 
