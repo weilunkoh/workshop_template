@@ -17,7 +17,7 @@ import os
 import tempfile
 
 os.environ["OPENAI_API_KEY"] = st.secrets["openapi_key"]
-# openai.api_key = st.secrets["openapi_key"]
+openai.api_key = st.secrets["openapi_key"]
 
 #Global ex 13
 cwd = os.getcwd()

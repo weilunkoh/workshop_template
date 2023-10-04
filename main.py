@@ -39,7 +39,7 @@ from pandasai import SmartDataframe
 from pandasai.llm.openai import OpenAI
 import matplotlib.pyplot as plt
 
-from part0part1 import ex1, ex2, ex3, ex4a, ex4b, ex5, ex6, ex8, ex9, ex10
+from part1 import ex1, ex2, ex3, ex4a, ex4b, ex5, ex6, ex8, ex9, ex10
 from part2 import ex11a, ex11b, ex12, ex13, ex14
 from part3 import ex15, ex16, ex17
 from part4 import ex18

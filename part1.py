@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 
-# openai.api_key = st.secrets["openapi_key"]
+openai.api_key = st.secrets["openapi_key"]
 
 def ex1():
 	# Exercise 1 : Functions
@@ -52,6 +52,7 @@ def ex3():
 	for key, value in person.items():
 		st.write(key + ": " + str(value))
 
+	# get user input to update the dictionary
 	name = st.text_input("Enter your name", "John")
 	age = st.text_input("State your age", 30)
 	gender = st.selectbox("State your gender", ["Male", "Female"])
