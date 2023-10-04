@@ -177,7 +177,7 @@ def chat_completion_stream(prompt):
 	)
 	return response
 
-def ex9():
+def ex9_basebot():
 	# Initialize chat history
 	if "chat_msg" not in st.session_state:
 		st.session_state.chat_msg = []
@@ -208,7 +208,7 @@ def ex9():
 	except Exception as e:
 		st.error(e)
 		
-def ex10():
+def ex10_basebot():
 	# prompt_template in session state already set in main()
 	MODEL = "gpt-3.5-turbo"
 	response = openai.ChatCompletion.create(

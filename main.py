@@ -39,10 +39,10 @@ from pandasai import SmartDataframe
 from pandasai.llm.openai import OpenAI
 import matplotlib.pyplot as plt
 
-from part1 import ex1, ex2, ex3, ex4a, ex4b, ex5, ex6, ex8, ex9, ex10
-from part2 import ex11a, ex11b, ex12, ex13, ex14
-from part3 import ex15, ex16, ex17
-from part4 import ex18
+from part1 import ex1, ex2, ex3, ex4a, ex4b, ex5, ex6, ex8, ex9_basebot, ex10_basebot
+from part2 import ex11a, ex11b, ex12, ex13, ex14_basebot
+from part3 import ex15, ex16_agent_bot, ex17_agent_bot
+from part4 import ex18_pandas_AI
 
 # Global ex 13
 cwd = os.getcwd()
@@ -78,17 +78,17 @@ def main():
 	# ex5()
 	# ex6()
 	# ex8()
-	# ex9()
-	# ex10()
+	# ex9_basebot()
+	# ex10_basebot()
 	# ex11a()
 	# ex11b()
 	# ex12()
 	# ex13()
-	# ex14()
+	# ex14_basebot()
 	# ex15()
-	# ex16()
-	# ex17()
-	# ex18()
+	# ex16_agent_bot()
+	# ex17_agent_bot()
+	# ex18_pandas_AI()
 
 if __name__ == "__main__":
 	main()

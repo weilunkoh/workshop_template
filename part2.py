@@ -170,7 +170,7 @@ def chat_completion_stream_prompt(prompt):
 # save the vectorstore in st.session_state
 # add semantic search prompt into memory prompt
 # integrate back into your chatbot
-def ex14():
+def ex14_basebot():
 	# Prompt_template form from ex11
 	prompt_template = PromptTemplate(
 		input_variables=["occupation", "topic", "age"],

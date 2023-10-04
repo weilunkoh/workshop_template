@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 
 # PandasAI- A smart agent that can do visual analytics
-def ex18():
+def ex18_pandas_AI():
 	st.title("pandas-ai streamlit interface")
 
 	# Upload CSV file using st.file_uploader

@@ -101,7 +101,7 @@ def ex15():
 
 # smart agents accessing the internet for free
 # https://github.com/langchain-ai/streamlit-agent/blob/main/streamlit_agent/search_and_chat.py
-def ex16():
+def ex16_agent_bot():
 	st.title("🦜 LangChain: Chat with internet search")
 
 	msgs = StreamlitChatMessageHistory()
@@ -214,7 +214,7 @@ def document_search(query: str) -> str:
 	return json_string
 
 # combine vector store and internet search
-def ex17():
+def ex17_agent_bot():
 	st.title("🦜 LangChain: Chat with internet search")
 
 	st.session_state.vectorstore = vectorstore_creator()
