@@ -29,8 +29,8 @@ from langchain.tools import DuckDuckGoSearchRun
 from langchain.agents import tool
 import json
 
-os.environ["OPENAI_API_KEY"] = st.secrets["openapi_key"]
-openai.api_key = st.secrets["openapi_key"]
+# os.environ["OPENAI_API_KEY"] = st.secrets["openapi_key"]
+# openai.api_key = st.secrets["openapi_key"]
 
 #Global ex 13
 cwd = os.getcwd()
