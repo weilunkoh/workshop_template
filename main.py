@@ -69,6 +69,7 @@ def main():
 	if "prompt_template" not in st.session_state:
 		st.session_state.prompt_template = "Speak like Yoda from Star Wars for every question that was asked, do not give a direct answer but ask more questions in the style of wise Yoda from Star Wars"
 
+	st.write("Hello world!")
 	# ex1()
 	# ex2()
 	# ex3a()
